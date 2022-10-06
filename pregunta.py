@@ -55,8 +55,6 @@ def check_prices(price):
 def check_credits(credit):
     credit = credit.replace('_',' ')
     credit = credit.replace('-',' ')
-    if('diaria' in credit):
-      credit = 'solidaria'
     return credit
 
 def check_dates(date):
